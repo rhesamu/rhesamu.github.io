@@ -4,9 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Currently under development</title>
+  <title>I can't decide</title>
 </head>
 <body>
-  <h1>Hello world! This website will be updated in the long run :)</h1>
+  <div class="header">
+    <h2>Let's make a decision!</h2>
+  </div>
+  <div class="container">
+    <div class="user-input">
+      <form>
+        <input type="text" name="textinput" id="textinput">
+        <button type="button" id='add-btn' onclick='save()'>Add to list</button>
+      </form>
+    </div>
+    <div class="choices" id="choices">
+
+    </div>
+    <div class="result" id="result">
+      <button type="button" onclick="randomPick()" id='choose-btn'>Choose me!</button>
+    </div>
+  </div>
+
+  <script src="scripts/index.js"></script>
 </body>
 </html>
