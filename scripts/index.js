@@ -23,8 +23,10 @@ function randomPick() {
 
   var resultDiv = document.getElementById('result')
   var text = document.createElement('h3');
+
   text.appendChild(result);
-  resultDiv.appendChild(text)
+
+  resultDiv.appendChild(text);
 
   document.getElementById("choose-btn").disabled = 'true';
 }

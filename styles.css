@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1dcaff;
+  display: block;
+  color: #fff;
+  font-family: sans-serif;
+  justify-content: center;
+}
